@@ -1,0 +1,111 @@
+# Copyright (C) 2010 Custom Gravatar
+# This file is distributed under the same license as the Custom Gravatar package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Gravatar 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/custom-gravatar\n"
+"POT-Creation-Date: 2011-01-24 20:28:03+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: custom-gravatar.php:37
+msgid "e-mail"
+msgstr ""
+
+#: custom-gravatar.php:41
+msgid "apply"
+msgstr ""
+
+#: custom-gravatar.php:41
+msgid "style"
+msgstr ""
+
+#: custom-gravatar.php:41
+msgid "from"
+msgstr ""
+
+#: custom-gravatar.php:41
+msgid "gravatar"
+msgstr ""
+
+#: custom-gravatar.php:47 custom-gravatar.php:53 custom-gravatar.php:59
+#: custom-gravatar.php:65 custom-gravatar.php:71 custom-gravatar.php:77
+#: custom-gravatar.php:83 custom-gravatar.php:89
+msgid "show"
+msgstr ""
+
+#: custom-gravatar.php:47
+msgid "name"
+msgstr ""
+
+#: custom-gravatar.php:53
+msgid "about me"
+msgstr ""
+
+#: custom-gravatar.php:59
+msgid "location"
+msgstr ""
+
+#: custom-gravatar.php:65
+msgid "ims"
+msgstr ""
+
+#: custom-gravatar.php:71
+msgid "accounts"
+msgstr ""
+
+#: custom-gravatar.php:77
+msgid "urls"
+msgstr ""
+
+#: custom-gravatar.php:83
+msgid "emails"
+msgstr ""
+
+#: custom-gravatar.php:89
+msgid "rels"
+msgstr ""
+
+#: custom-gravatar.php:89
+msgid "nofollow"
+msgstr ""
+
+#: custom-gravatar.php:173
+msgid "IMS"
+msgstr ""
+
+#: custom-gravatar.php:184
+msgid "Accounts"
+msgstr ""
+
+#: custom-gravatar.php:191
+msgid "view"
+msgstr ""
+
+#: custom-gravatar.php:199
+msgid "URLs"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Custom Gravatar"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add widget with information from custom gravatar account"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Vladimir Tsvang"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/profile/vtsvang"
+msgstr ""
