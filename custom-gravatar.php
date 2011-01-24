@@ -171,7 +171,7 @@ class CustomGravatar extends WP_Widget {
  ?>
                 <div class="aims" align="left">
                     <h3><?php echo __('IMS'); ?></h3>
-<?php foreach ($userdata->entry[0]->ims as $value) {
+<?php foreach (@$userdata->entry[0]->ims as $value) {
  ?>
                                 <p><strong><?php echo $value->type; ?>:</strong> <?php echo $value->value; ?></p>
 <?php } ?>
@@ -182,7 +182,7 @@ class CustomGravatar extends WP_Widget {
  ?>
                         <div class="accounts" align="left">
                             <h3><?php echo __('Accounts'); ?></h3>
-<?php foreach ($userdata->entry[0]->accounts as $value) { ?>
+<?php foreach (@$userdata->entry[0]->accounts as $value) { ?>
                                 <p><strong><?php echo $value->shortname; ?>:</strong> <a <?php if ($instance['rels'] == 'nofollow') {
                             echo 'rel="nofollow"';
                         } ?> href="<?php echo $value->url; ?>"><?php if (!empty($value->username)) {
@@ -197,7 +197,7 @@ class CustomGravatar extends WP_Widget {
 <?php if ($instance['urls'] == 'on') { ?>
                         <div class="urls" align="left">
                             <h3><?php echo __('URLs'); ?></h3>
-<?php foreach ($userdata->entry[0]->urls as $value) { ?>
+<?php foreach (@$userdata->entry[0]->urls as $value) { ?>
                                 <p><a <?php if ($instance['rels'] == 'nofollow') {
                             echo 'rel="nofollow"';
                         } ?> href="<?php echo $value->value; ?>"><?php echo $value->title; ?></a></p>
